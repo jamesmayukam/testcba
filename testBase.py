@@ -5,6 +5,7 @@ This creates the required resources to run the test scripts.
 Checking commit
 Final comment
 One more comment
+another commenta dded.
 '''
 import logging
 from restFile import RestBase
