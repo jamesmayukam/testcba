@@ -47,6 +47,10 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
+      # Runs deugging
+      - name: Run debugging commands
+        run: ls -ltr
+
       # Custom tasks
       - name: Run regression tests
         run: |
