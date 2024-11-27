@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-
+'''
+This acts as base class for writing test scripts.
+This creates the required resources to run the test scripts.
+'''
 import logging
 from restFile import RestBase
 
