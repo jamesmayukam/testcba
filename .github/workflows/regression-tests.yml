@@ -53,6 +53,10 @@ jobs:
       - name: Run debugging commands
         run: ls -ltr
 
+      # Install dependencies
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
       # Custom tasks
       - name: Run regression tests
         run: |
