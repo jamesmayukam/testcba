@@ -7,6 +7,7 @@ Final comment
 One more comment
 another commenta dded.
 change added after two explicit branches
+hopefully last change
 '''
 import logging
 from restFile import RestBase
