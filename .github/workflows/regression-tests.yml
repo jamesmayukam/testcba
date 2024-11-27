@@ -35,7 +35,7 @@ jobs:
       - name: Set up python
         uses: actions/setup-python@v4
         with:
-                python-version: '3.0'
+                python-version: '3.x'
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
@@ -50,4 +50,4 @@ jobs:
       # Custom tasks
       - name: Run regression tests
         run: |
-          python3 regFile.py
+          python regFile.py
