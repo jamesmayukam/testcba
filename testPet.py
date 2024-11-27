@@ -11,7 +11,7 @@ PETDETAILS = {
         },
         "photoUrls": ["http://example.com/Dog6005-1.jpg"],
         "tags": [{"id": 6, "name": "white"}],
-        "status": "available"
+        "status": "pending"
     }
 class TestPetDetails(TestBase):
     def __init__(self):
