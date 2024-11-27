@@ -23,7 +23,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  run-python-script:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -31,6 +31,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
+        with:
+                ref: 'swaggertest'
 
       - name: Set up python
         uses: actions/setup-python@v4
